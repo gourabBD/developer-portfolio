@@ -32,14 +32,17 @@ p{
 .first-part img{
 width: 80%;
 padding-left: 15% ;
+padding-top: 5%;
+
 
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .link-btn{
     text-decoration: none;
-    background-image: linear-gradient(orange,rgb(127, 11, 251));
+    background-image: linear-gradient(orange,yellow);
     padding: 10px 40px;
     border-radius: 5px;
     color: hsl(247, 100%, 36%);
@@ -47,10 +50,27 @@ section{
     
 }
 .link-btn:hover {
-    background-image: linear-gradient(rgb(127, 11, 251),orange);
+    background-image: linear-gradient(yellow,orange);
 }
 
 .top{
     background-image:url(img/top-banner.png) ;
     background-repeat: no-repeat;
 }
+
+.mid-part img{
+    width: 80%;
+padding-left: 15% ;
+padding-top: 5%;
+border-radius: 50% 50% 50% 50%;
+}
+.mid-part{
+    width: 100%;
+    padding-right: 10% ;
+}
+.dream-big{
+    background-image:url(img/dream-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
