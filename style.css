@@ -3,11 +3,54 @@ h1{
     font-size: 50px;
     font-weight: bold;
 }
-span{
+h3{
+    color: blue;
+}
+.name{
     color: hsl(39, 94%, 50%);
     font-size: 50px;
     font-weight:bolder;
+
+}
+span{
+    color: hsl(39, 94%, 50%);
+    font-size: 20px;
+    font-weight:700;
 }
 body{
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+p{
+    font-weight: 700;
+}
+.first-part{
+    width: 100%;
+    padding-left: 5% ;
+
+}
+.first-part img{
+width: 80%;
+padding-left: 15% ;
+
+}
+section{
+    display: flex;
+}
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange,rgb(127, 11, 251));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: hsl(247, 100%, 36%);
+    font-weight: 700;
+    
+}
+.link-btn:hover {
+    background-image: linear-gradient(rgb(127, 11, 251),orange);
+}
+
+.top{
+    background-image:url(img/top-banner.png) ;
+    background-repeat: no-repeat;
 }
