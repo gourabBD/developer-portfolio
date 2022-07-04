@@ -1,0 +1,13 @@
+h1{
+    color: rgb(20, 8, 247);
+    font-size: 50px;
+    font-weight: bold;
+}
+span{
+    color: hsl(39, 94%, 50%);
+    font-size: 50px;
+    font-weight:bolder;
+}
+body{
+    font-family: 'Source Code Pro', monospace;
+}
