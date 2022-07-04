@@ -19,12 +19,13 @@ span{
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
     
 }
 
 .first-part{
     width: 100%;
-    padding-left: 2% ;
+    padding-left:2% ;
 
 }
 .first-part img{
@@ -51,11 +52,14 @@ padding-top: 5%;
 .top{
     background-image:url(img/top-banner.png) ;
     background-repeat: no-repeat;
-    margin: 0;
+    
+    
+    
+   
 }
 
 .mid-part img{
-    width: 80%;
+    width: 100%;
 padding-left: 2% ;
 padding-top: 5%;
 border-radius: 50% 50% 50% 50%;
